@@ -1,0 +1,35 @@
+
+.item {
+    cursor: pointer;
+    overflow: hidden;
+}
+.item .caption{
+position: absolute;
+bottom: -50px;
+left: 15px;right: 15px;
+background-color: white;transition: .5s;
+opacity: 0;
+}
+.item:hover .caption{
+    bottom: 15px;
+    opacity: 1;
+
+}
+
+
+
+
+.boxcontainer {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none
+}
+.imgBoxContainer {
+  background-image: url(images/img5.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+background-position: center center;
+}
+.imgBoxContainer i{
+    font-size: 25px;cursor: pointer;
+}
